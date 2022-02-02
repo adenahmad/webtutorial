@@ -1,0 +1,356 @@
+*
+{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu-bar{ 
+     background: rgb(0, 100, 0);
+     text-align:right;
+
+}
+.medsos {
+    padding: 5px 0;
+    background-color: #00adb5;
+    
+}
+.medsos ul li {
+    display: inline-block;
+    color:#fff;
+    margin-right: 10px;
+}
+ .logo a{
+    text-decoration: none;
+    font-size:35px;
+    font-weight: 500px;
+    float:left;
+    font-family: 'Courier New', Courier, monospace;
+    color:#fff;
+    padding-top: 10px;
+    padding-left: 40px;
+    font-weight: bold;
+    
+}
+
+.menu-bar ul {
+  display: inline-flex ;
+  list-style: none;
+  color: #fff;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color:#fff ;
+}
+ .active,.menu-bar ul li:hover{
+    background:#2bab0d ;
+    border-radius: 3px ;
+
+ }
+ .logo h2{
+     text-align: center;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 40px;
+     margin-top: 250px;
+
+ }
+ .logo p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+.banner {
+    height: 90vh;
+    background-image: url(../img/bg.jpg);
+    background-size:cover ;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h2 {
+    margin-top: 0px;
+    margin-left: 40px;
+    color: rgba(red, green, blue, alpha);    
+    padding: 20px 25px;
+    border: 3px solid green;
+    background-color: rgb(161, 161, 161, .4);
+    border-radius: 10px;
+ 
+}
+
+
+footer {
+    padding: 30px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.bawah {
+    width:80%;
+    margin: 0 auto;
+}
+footer a {
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 4px;
+    border:1px solid;
+}
+footer  a:hover{
+    float: left;
+   text-decoration: none;
+   color: green;
+  
+}
+footer  p a{
+     float: right;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 4px;
+    border:1px solid;
+   
+}
+footer  p a:hover{
+    float: right;
+   text-decoration: none;
+   color: green;
+  
+}
+/* .label {
+    background-color: #fff;
+    color:green;
+    padding-right: 1000px;
+} */
+.container {
+   
+    color: rgb(161, 161, 161);    
+    padding: 20px 10px;
+    
+ 
+}
+.gambar p {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.gambar h3 a{
+   
+    padding-left: 60px;
+    margin-left: 70px;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color:green;
+    border-radius: 10px;
+
+
+}
+.latihan h3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.latihan h3 a{
+    padding-left: 60px;
+    margin-left: 70px;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color:green;
+    border-radius: 10px;
+ 
+
+
+}
+.gambar h3 a:hover{
+  background: red;
+}
+.latihan h3 a:hover{
+    background: red;
+}
+.gambar img {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 270px;
+    border: 2px solid;
+    color: green;
+}
+.bg-loader {
+    background-color: #eee;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg-loader .loader {
+    width:100px;
+    height:100px;
+    border:3px solid #fff;
+    border-radius: 50% ;
+    border-top-color: #00adb5;
+    border-right-color: #00adb5;    
+    border-bottom-color: #00adb5;
+    animation: puterin .8s linear infinite;
+}
+@keyframes puterin {
+    100%{
+        transform:rotate(360deg);
+    }
+}
+@media screen and (max-width:768px){
+    .menu-bar {
+        width: 100%;
+        height: auto;
+    }
+    .banner img{
+        width: 90%;
+    }
+    .box .col-4 h4 p {
+        width:90%;
+        float: none;
+        margin-bottom: 20px;
+
+    }
+    
+    
+    /* cek html */
+    .language-markup code {
+        width:100%;
+        float: none;
+        margin-bottom: 20px;
+
+    }
+    
+}
+
+/* cek html */
+.html{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Arial Narrow Bold';
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 0.2s linear infinite;
+}
+/* .gambarc{
+    width: 54vh;
+    margin-left: 140vh;
+    position: absolute;
+    margin-top: -63vh;
+    border: 1px solid #333;
+    
+
+} */
+.text{
+    color: white;
+    text-indent:20px;
+    margin-right: 70vh;
+    line-height: 20px;
+    padding: 10px;
+}
+.language-markup {
+    font-size: 15px;
+    color: yellow;
+    line-height: 20px;
+    padding: 10px;
+}
+ .kata {
+    color: white;
+    text-indent:20px;
+    line-height: 20px;
+    padding: 10px;
+}
+.tulisan{
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px;
+}
+/* ... */
+
+.link {
+    padding:10px 5px ;
+    margin-right:10px;
+    margin-left: 1020px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:#ff005c;
+}
+.link a {
+    color:#fff;
+    text-decoration: none;
+}
+.link:hover {
+   text-decoration: none;
+    background:#09015f;
+}
+
+/* untuk servis */
+.service h3 {
+   text-align:center ;
+}
+.box {
+    /* border:1px solid; */
+    color: #00adb5;
+}
+.box:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+.box .col-4 {
+    width:25%;
+    padding: 20px;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+    text-align: center;
+    float: left;
+}
+.icon {
+    width:70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin:0 auto;
+}
+.box .col-4 h4 {
+    margin: 20px 0;
+}
+
+/* cek php */
+.kalimat{
+    color: white;
+    text-indent:20px;
+    margin-right: 60vh;
+    padding-left: 10px;
+}
+.Jphp {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+}

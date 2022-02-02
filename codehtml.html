@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>HTML</title>
+   
+</head>
+<body bgcolor="teal">
+    <!-- loader -->
+<div class="bg-loader">
+    <div class="loader"></div>
+  </div>
+    <center>
+        <h1 class="html"><i class="fa fa-html5" arial-hidden="true"></i>HTML</h1>
+    </center>
+    
+    <p class="text">HyperText Markup Language (HTML) merupakan suatu bahasa markah yang digunakan untuk membuat halaman web, menampilkan berbagai informasi di dalam sebuah  browser web. HTML dibuat dengan menggunakan aplikasi pengolah kata dan disimpan dalam format ASCII  sehingga menjadi halaman web dengan perintah-perintah HTML. HTML merupakan sebuah standar yang digunakan secara luas untuk menampilkan halaman web. Pada saat HTML merupakan standar internet yang didefinisikan dan dikendalikan penggunaannya oleh World Wide Web Consortium  (W3C). HTML dibuat oleh kolaborasi Caillau TIM yang diketuai oleh  Berners-lee robert ketika bekerja di CERN pada tahun 1989.</p>
+    <p class="text">Sejarah pembuatan HTML diawali pada tahun 1980, dimana IBM memikirkan pembuatan suatu dokumen yang akan mengenali setiap elemen dari dokumen dengan suatu tanda tertentu. IBM kemudian mengembangkan suatu jenis bahasa yang menggabungkan teks dengan perintah-perintah pemformatan dokumen. Bahasa ini dinamakan Markup Language, sebuah bahasa yang menggunakan tanda-tanda sebagai basisnya. Kemudian IBM menamakan sistemnya ini sebagai Generalized Markup Language atau GML.</p>
+    <p class="text">Tahun 1986, ISO menyatakan bahwa IBM memiliki suatu konsep tentang dokumen yang sangat baik, dan kemudian mengeluarkan suatu publikasi yang menyatakan markup language sebagai standar untuk pembuatan dokumen. ISO dalam publikasinya meyakini bahwa SGML akan sangat berguna untuk pemrosesan informasi teks dan sistem-sistem perkantoran. Selain itu SGML terutama subset dari SGML, yaitu HTML juga berguna untuk menjelajahi internet. Khususnya bagi mereka yang menggunakan World Wide Web. Versi terakhir dari HTML adalah HTML 4.01, meskipun saat ini telah berkembang XHTML yang merupakan pengembangan dari HTML. Berikut adalah contoh dokumen sederhana HTML:</p>
+    
+    <!-- <img src="./img/html.jpg" alt="" class="gambarc"> -->
+     
+    <pre class="language-markup">
+        <code>
+            &lt;html&gt;
+            &lt;head&gt;
+            &lt;title&gt;HyperText Markup Language &lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                  &lt;p&gt; 
+                     &lt;i&gt;HyperText Markup Language&lt;/i&gt; 
+                             (HTML) merupakan suatu bahasa markah yang digunakan untuk membuat halaman web, 
+                             menampilkan berbagai informasi di dalam sebuah  
+                     &lt;i&gt;browser web&lt;/i&gt;
+                 &lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
+
+    <h3 style="color: red; padding:10px;">Cara Kerja HTML?</h3>
+    <p class="kata">
+        Dokumen HTML adalah file yang diakhiri dengan ekstensi .html atau .htm. Ekstensi file ini bisa dilihat dengan mengunakan web browser apa pun (seperti Google Chrome, Safari, atau Mozila Firefox). Browser tersebut membaca file HTML dan me-render kontennya sehingga user internet bisa melihat dan membacanya.
+
+        Biasanya, rata-rata situs web menyertakan sejumlah halaman HTML yang berbeda-beda. Contohnya, beranda utama, halaman ‘tentang kami’, halaman kontak yang semuanya memiliki dokumen HTML terpisah.
+        
+        Masing-masing halaman HTML terdiri atas seperangkat tags (bisa disebut juga elements), yang mengacu pada building block halaman website. Tag tersebut membuat hirarki yang menyusun konten hingga menjadi bagian, paragraf, heading, dan block konten lainnya.
+        
+        Sebagian besar element HTML memiliki tag pembuka dan penutup yang menggunakan syntax.
+    </p>
+    <pre class="language-markup">
+        <code>
+            &lt;div&gt;
+                &lt;h1&gt;The Main Heading&lt;/h1&gt;
+                &lt;h1&gt;A catchy subheading&lt;/h1&gt;
+                &lt;p&gt;Paragraph one&lt;/p&gt;
+                &lt;img src="/" alt="Image"&gt; 
+                &lt;p&gt;Paragraph two with a
+                &lt;a href="https://example.com">hyperlink&lt;/a&gt;&lt;/p&gt; 
+            &lt;/div&gt;
+        </code>
+    </pre>
+
+    <ul class="tulisan">
+        <li>Elemen teratas dan terbawah adalah division sederhana (&lt;div&gt; &lt;/div&gt;) yang bisa Anda gunakan untuk mark up bagian konten yang lebih besar.</li>
+        <li>Susunan HTML di atas terdiri atas heading (&lt;h1&gt; &lt;/h1&gt;), subheading (&lt;h2&gt; &lt;/h2&gt;), dua paragraf (&lt;p&gt; &lt;/p&gt;), dan satu gambar (&lt;img&gt;).</li>
+        <li>Paragraf kedua meliputi sebuah link (&lt;a&gt; &lt;/a&gt;) dengan attribute href yang terdiri atas URL tujuan.</li>
+        <li>Tag gambar memiliki dua attribute, <em><strong style="color: red;">src</strong></em> untuk path gambar dan <em><strong style="color: red;">alt</strong></em> untuk deskripsi gambar.</li>
+    </ul>
+
+
+    
+    <footer>
+        <div class="bawah">
+             <a href="pencarian.html">Kembali</a>
+             <p><a href="codehtml.html">kembali ke atas</a></p>
+            <small>copyright &copy; 2021-ADEN RIMBA. All Rights Reserved</small>
+           
+        </div>
+    </footer>
+
+    <!-- ini script nya -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".bg-loader").hide();
+        })
+           
+        </script>
+</body>
+</html>

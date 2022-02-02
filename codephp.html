@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>PHP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body bgcolor="teal">
+      <!-- loader -->
+<div class="bg-loader">
+    <div class="loader"></div>
+  </div>
+
+    <center>
+        <h1 style="color: orange;">PHP</h1>
+        <!-- <img src="./gambar/rasmusloderf.jpg" alt="" class="php" width="300px">
+        <h3>Rasmus lerdorf</h3> -->
+    </center>
+    <h2 style="color:orange;" class="Jphp">Pengertian PHP:</h2>
+
+    <P class="kalimat">PHP Adalah bahasa scripting server-side, Bahasa pemrograman yang digunakan untuk mengembangkan situs web statis atau situs web dinamis atau aplikasi Web. PHP singkatan dari Hypertext Pre-processor, yang sebelumnya disebut Personal Home Pages.</p>
+        <p class="kalimat">Script sendiri merupakan sekumpulan instruksi pemrograman yang ditafsirkan pada saat runtime. Sedangkan Bahasa scripting adalah bahasa yang menafsirkan skrip saat runtime. Dan biasanya tertanam ke dalam lingkungan perangkat lunak lain.
+
+            Karena php merupakan scripting server-side maka jenis bahasa pemrograman ini nantinya script/program tersebut akan dijalankan/diproses oleh server. Berbeda dengan javascript yang client-side.</p>
+      <h3 style="color: orange;" class="Jphp">Perbedaan Bahasa Pemrograman dan Bahasa Scripting</h3>
+      <p class="kalimat">PHP adalah bahasa pemrograman umum yang berarti php dapat disematkan ke dalam kode HTML, atau dapat digunakan dalam kombinasi dengan berbagai sistem templat web, sistem manajemen konten web, dan kerangka kerja web. </p>
+    <p class="kalimat">Terdapat perbedaan antara bahasa pemrograman dan bahasa scripting, Apa saja perbedaan diantara keduanya baik dari segi kelebihan dan kekurangan:</p>
+   
+    <h3 style="color: orange;" class="Jphp">Bahasa Pemrograman :</h3>
+
+<p class="kalimat">1. Bahasa pemrograman memiliki semua fitur yang diperlukan untuk membangun dan mengembangkan aplikasi yang lengkap.</p>
+<p class="kalimat">2.Kode harus dikompilasi terlebih dahulu sebelum dapat dieksekusi.</p>
+<p class="kalimat">3.Tidak perlu disematkan ke bahasa lain.</p>
+
+<h3 style="color: orange;" class="Jphp">Bahasa Scripting:</h3>
+<p class="kalimat">1. Bahasa scripting Paling banyak digunakan untuk tugas-tugas rutin.</p>
+<p class="kalimat">2.Kebanyakan kode ini biasanya dijalankan tanpa adanya kompilasi.</p>
+<p class="kalimat">3.Biasanya tertanam ke dalam lingkungan perangkat lunak lain.</p>
+
+<h2 style="color: orange;" class="Jphp">Apa Fungsi PHP:</h2>
+<p class="kalimat">Fungsi PHP adalah membuat atau mengembangkan situs web statis atau situs web dinamis atau aplikasi Web. Walaupun sebenarnya bukan hanya PHP bahasa pemrograman yang bisa digunakan untuk memuat website.</p>
+<p class="kalimat">PHP digunakan karena untuk membuat website dinamis bisa digunakan untuk menyimpan data ke dalam database, membuat halaman yang dapat berubah-ubah sesuai dengan input  user, memproses form, dll.</p>
+<p class="kalimat">Dalam membuat file PHP dapat digabung menggunakan tag html, Dan ketika tanpa menggunakan tag html apa pun disebut file PHP Murni. Server menginterpretasikan kode PHP dan mengeluarkan hasilnya sebagai kode HTML ke browser web. Agar server mengidentifikasi kode PHP dari kode HTML, kita harus selalu menyertakan kode PHP dalam tag PHP.</p>
+<h2 style="color: orange;" class="Jphp">Contoh pembuatan Syntax PHP:</h2>
+
+
+<pre class="language-markup">
+    <code>
+            &lt;?php
+                    echo 'HELLO WORLD';
+            &lt;?
+            
+    </code>
+</pre>
+<p class="kalimat">Dari kode program diatas akan keluar output Hello World. Berikut contoh lain penggunaan PHP yang disematkan kedalam HTML</p>
+
+<pre class="language-markup">
+    <code>
+            &lt;!DOCTYPE html&gt;
+            &lt;html&gt;
+            &lt;head&gt;
+                &lt;title&gt;penulisan php pada html &lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h2&gt;Daftar Hadir Event  &lt;/h2&gt;
+
+                &lt;ol&gt;
+                &lt;?php    
+                for ($i= 1; $i &lt;= 10 ; $i++)
+                {
+                    echo "&lt;li&gt;Nama peserta ke-$i&lt;/li&gt;";
+                }
+                
+                ?&gt;
+                &lt;/ol&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+    </code>
+</pre>
+<img src="./gambar/penulisan-PHP.png" alt="" class="php" width="500px">
+
+<h2 style="color: skyblue;">Ekstensi File PHP:</h2>
+<p class="kalimat">PHP memiliki ekstensi tersendiri, Fungsi dari adana ekstensi berebedai agar server dapat mengidentifikasi file dan script PHP. File PHP harus harus disimpan ekstensi “.php”. Ekstensi file PHP yang lebih lama termasuk</p>
+<pre class="language-markup">
+    <code>
+            1.phptml
+            2.php3
+            3.php4
+            4.php5
+            5.phps
+       
+<h2 style="color:skyblue;">Mengapa menggunakan PHP?</h2>
+<p class="kalimat">Banyak bahasa pemrograman di luar sana namun mengapa banyak website yang menggunakan PHP 
+sebagai bahasa pemrograman yang utama. Berdasarkan survey yang dilakukan W3tech.com Bahasa
+PHP digunakan 79% website di dunia ini.</p>
+<img src="https://www.jagoanhosting.com/blog/wp-content/uploads/2019/11/Bahasa-Pemrograman-Terpopuler.png" alt="" class="php" width="500px">
+    </code>
+</pre>
+<footer>
+    <div class="bawah">
+         <a href="pencarian.html">Kembali</a>
+         <p><a href="codephp.html">kembali ke atas</a></p>
+        <small>copyright &copy; 2021-ADEN RIMBA. All Rights Reserved</small>
+       
+    </div>
+</footer>
+
+<!-- ini script nya -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".bg-loader").hide();
+    })
+       
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemograman info </title>
+    <link rel="stylesheet" href="./style/style.css">
+    <style>
+        body, h1, h2, p, a,td, span {
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+        }
+        .wrap {
+            background-color:rgba(255, 255, 255, 0.7);
+            width: 800px;
+            color:black;
+            margin: 20px auto;
+            padding:15px;
+        }
+        .icon {
+            padding:5px;
+            text-align: center;
+        }
+        span {
+            color: maroon;
+        }
+        h3 {
+           
+            padding:5px 5px;
+            margin:0px 530px 0px 530px;
+            color:white;
+            background-color:green;
+            border-radius: 5px;
+           
+        }
+        h3 a{
+            padding: 5px 5px;
+            color: red;
+            
+        }
+         .active,h3 a:hover {
+            background-color: #eee;
+            color: green;
+        }
+        
+    </style>
+</head>
+<body bgcolor="skyblue">
+
+
+    <div class="wrap">
+        <h1 align="center">My<span>Profil</span></h1>
+        <table>
+            <tr>
+                <td rowspan="8" width="100px"> <img src="img/ka.jpg" width="200px" style="display: block;border-radius: 5%;border-color:white;margin-right:30px" border="2px" ></td>
+            </tr>
+            <tr>
+                <td><b>Nama</b></td>
+                <td>:</td> <td> ADEN AHMAD RIFAI</td>
+            </tr>
+            <tr>
+                <td><b>Posisi</b></td><td>:</td> <td>Murid</td>
+            </tr>
+            <tr>
+                <td><b>Sekolah</b></td><td>:</td> <td><a>SMK WIKRAMA BOGOR</a></td>
+            </tr>
+            <tr>
+                <td><b>Jenis Kelamin</b></td><td>:</td> <td>Laki-Laki</td>
+            </tr>
+            <tr>
+                <td><b>Email</b></td><td>:</td><td><a href="adenahmadrifai@smkwikrama.sch.id">adenahmadrifai@smkwikrama.sch.id</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="wrap" align="center">
+        <h2 align="center">GET <span>IN TOUCH</span></h2>
+        <a class="icon" href="https://instagram.com/liupurnomo/"><img src="https://images.tokopedia.net/img/cache/700/product-1/2018/12/14/45809588/45809588_7fd9c9e1-0e5f-4761-8d1b-83c7e445ae3d_1455_1454.png" alt="" width="40px"></a>
+        <a class="icon" href="https://facebook.com/leonsps/"><img src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_1280.png" alt="" width="40px"></a>
+        <a class="icon" href="https://www.youtube.com/liuditube/"><img src="data:image/png;base64,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" alt="" width="40px"></a>
+    </div>
+    <footer>
+        <p align="center"><b><i>
+           <smail> copyright &copy; 2021-ADEN RIMBA. All Rights Reserved</smail>
+
+        </p>
+    </footer>
+    <h3 class="active"><a href="index.html">kembali ke beranda</a></h3>
+</body>
+</html>

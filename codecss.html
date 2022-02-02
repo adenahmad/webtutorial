@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>HTML</title>
+    <style>
+        body {
+            
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .css {
+            font-size: 50px;
+            font-family: 'Arial Narrow Bold';
+            letter-spacing: 1px;
+        } 
+        center {
+            padding-bottom: 30px;
+        }
+
+        .judul, .css {
+            color: yellow;
+        }
+
+        /* .gambar {
+            width: 54vh;
+            margin-left: 100vh;
+            position: absolute;
+            margin-top: -115vh;
+            border: 1px solid #000;
+        
+        } */
+
+        .language-markup{
+            font-size: 15px;
+            color: yellow;
+            line-height: 20px;
+        }
+
+        .text {
+            color: white;
+            text-indent: 20px;
+            margin-right: 70vh;
+            line-height: 20px;
+            padding-bottom: 20px;
+        }
+
+        .textjudul {
+            color: white;
+            padding-left:10px ;
+        }
+
+        .kata {
+            color: white;
+            text-indent:10px;
+            line-height: 20px;
+            padding-right: 50px;
+        }
+
+        .tulisan{
+            color: white;
+            font-size: 16px;
+            line-height: 20px;
+            padding-right: 50px;
+        }
+
+        .hasil {
+            padding-left: 50px;
+            padding-bottom: 50px;
+        }
+
+        .materi {
+            color: skyblue;
+            font-size: 20px;
+            font-weight: bold;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body bgcolor="teal">
+    <!-- loader -->
+<div class="bg-loader">
+    <div class="loader"></div>
+  </div>
+
+    <center>
+        <h1 class="css"><i class="fa fa-css3" arial-hidden="true"></i>CSS</h1>
+        <span class="judul">(Cascading Style Sheets)</span>
+    </center>
+    
+    <span class="materi">Apa itu CSS ?</span>
+    <p class="text">CSS adalah singkatan dari Cascading Style Sheets. Namun secara konteks, Cascading Style Sheets adalah kumpulan perintah yang digunakan untuk menjelaskan tampilan sebuah halaman situs web dalam mark-up language. Mark-up language atau bahasa markah adalah bahasa pemrograman yang biasanya digunakan membuat website. HTML ini istilahnya ada di “balik layar” tampilan halaman web yang kamu akses. Tatanan sebuah situs web akan berantakan tanpa adanya bahasa pemrograman seperti HTML.</p>
+    <span class="materi">Hubungan HTML dan CSS ?</span>
+    <p class="text">Lalu, apa hubungannya HTML dengan CSS? Keduanya sangat berhubungan erat. CSS adalah kode-kode yang dipakai untuk mendesain sebuah laman HTML. Jika HTML diibaratkan sebagai seorang manusia, maka CSS adalah pakaian yang membuat penampilan menjadi semakin menarik. CSS akan membantu para web designer untuk mengubah tampilan teks (baik dari bentuk dan ukuran font maupun warnanya), menambahkan gambar, hingga mengubah latar belakang sebuah halaman HTML.</p>
+    <p class="textjudul">Berikut contoh Sintaks HTML dan CSS :</p>
+        <pre class="language-markup">
+            <code>
+                &lt;html&gt;
+                    &lt;head&gt;
+                        &lt;title&gt;HTML dan CSS&lt;/title&gt;
+                        &lt;style&gt;
+                            .h1 {
+                                background-color: skyblue;
+                                width: max-content;
+                            }
+                        &lt;/style&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        &lt;h1&gt; Hello World! &lt;/h1&gt; 
+                    &lt;/body&gt;
+                &lt;/html&gt;
+            </code>
+        </pre>
+        <p class="text">Berikut contoh hasil dari Sintaks HTML dan CSS :</p>
+        <img src="./img/hasilcss.jfif" alt="" class="hasil">
+
+    <!-- <img src="./img/css.jpg" alt="" class="gambar"> -->
+
+    <h3 style="color: skyblue;" class="materi">Cara Kerja CSS</h3>
+    <p class="kata">
+        Dokumen CSS adalah file yang diakhiri dengan ekstensi .css . Ekstensi file ini bisa dilihat jika digabungkan dengan HTML dengan menggunakan web browser apa pun (seperti Google Chrome, Safari, atau Mozila Firefox). Browser tersebut membaca file HTML dan CSS lalu me-render kontennya sehingga user internet bisa melihat dan membacanya.
+    </p>
+
+    <ul class="tulisan">
+        <p>Berikut Penjelasan Tag Sintaks nya :</p>
+        <li>Pada bagian <i class="tag" style="color: red;">&lt;head&gt;</i> terdapat <i class="tag" style="color: red;">&lt;title&gt;&lt;/title&gt;</i>, yang berfungsi untuk memberi judul pada halaman web</li>
+        <li>Susunan HTML di atas terdiri atas heading <i class="tag" style="color: red;">(&lt;h1&gt;&lt;/h1&gt;)</i>, yang biasanya digunakan untuk judul.</li>
+        <li>Susunan CSS di atas terdiri <i class="tag" style="color: red;">(background-color: skyblue;)</i> untuk mewarnai latar belakang, dan <i class="tag" style="color: red;">(width: max-content;)</i> untuk mengatur lebar sesuai besar maksimal pada content</li>
+    </ul>
+
+    <i class="tag" style="color: red;"></i>
+
+    <footer>
+        <div class="bawah">
+             <a href="pencarian.html">Kembali</a>
+             <p><a href="codecss.html">kembali ke atas</a></p>
+            <small>copyright &copy; 2021-ADEN RIMBA. All Rights Reserved</small>
+           
+        </div>
+    </footer>
+
+    <!-- ini script nya -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".bg-loader").hide();
+        })
+           
+        </script>
+</body>
+</html>
